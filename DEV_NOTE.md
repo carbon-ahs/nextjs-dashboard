@@ -8,12 +8,12 @@
 
 ### Run command
 
-```
+```bash
 pnpm dev
 ```
 
 ## install  command
 
-```
+```bash
 pnpm i
 ```
