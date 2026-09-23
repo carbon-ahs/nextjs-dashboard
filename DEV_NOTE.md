@@ -3,6 +3,7 @@
 ## Bookmark
 
 - 22-09-2026: https://nextjs.org/learn/dashboard-app/navigating-between-pages#pattern-showing-active-links
+- 23-09-2026: https://nextjs.org/learn/dashboard-app/fetching-data#fetching-data-for-latestinvoices
 
 ## Topics
 
