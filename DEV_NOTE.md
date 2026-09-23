@@ -27,8 +27,11 @@ export default function InvoiceStatus({ status }: { status: string }) {
 
 - vercel db error. gonna be use local postgres db. steps are here for latter use. 
   1. Instructions link : https://chatgpt.com/share/6ab3725e-7a8c-83e8-af88-02b4cb2e4ced
-  2. Install pgadmin https://www.postgresql.org/ftp/pgadmin/pgadmin4/v9.18/windows/
-  3. 
+  2. Install postgres: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+  3. skip stack builder during installation
+  4. create server first
+  5. then create db
+  6. 
 
 ## Commands
 
