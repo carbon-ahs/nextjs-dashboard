@@ -4,6 +4,7 @@
 
 - 22-09-2026: https://nextjs.org/learn/dashboard-app/navigating-between-pages#pattern-showing-active-links
 - 23-09-2026: https://nextjs.org/learn/dashboard-app/fetching-data#fetching-data-for-latestinvoices
+- 24-09-2026: https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#best-practice-debouncing
 
 ## Topics
 
@@ -33,7 +34,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
   4. create server first
   5. then create db
 
-- need to learn about hook, promise, Suspense.
+- need to learn about props, hook, promise, Suspense.
 - Route groups allow you to organize files into logical groups without affecting the URL path structure. When you create a new folder using parentheses (), the name won't be included in the URL path. So /dashboard/(overview)/page.tsx becomes /dashboard.
 - Suspense allows you to defer rendering parts of your application until some condition is met (e.g. data is loaded). You can wrap your dynamic components in Suspense. Then, pass it a fallback component to show while the dynamic component loads.
 - In general, it's good practice to move your data fetches down to the components that need it, and then wrap those components in Suspense.
