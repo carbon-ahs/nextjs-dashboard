@@ -34,7 +34,8 @@ export default function InvoiceStatus({ status }: { status: string }) {
   5. then create db
 
 - need to learn about hook, promise, Suspense.
-- 
+- Route groups allow you to organize files into logical groups without affecting the URL path structure. When you create a new folder using parentheses (), the name won't be included in the URL path. So /dashboard/(overview)/page.tsx becomes /dashboard.
+- Suspense allows you to defer rendering parts of your application until some condition is met (e.g. data is loaded). You can wrap your dynamic components in Suspense. Then, pass it a fallback component to show while the dynamic component loads.
 
 ## Commands
 
