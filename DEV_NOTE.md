@@ -32,7 +32,9 @@ export default function InvoiceStatus({ status }: { status: string }) {
   3. skip stack builder during installation
   4. create server first
   5. then create db
-  6. 
+
+- need to learn about hook, promise, Suspense.
+- 
 
 ## Commands
 
