@@ -5,6 +5,7 @@
 - 22-09-2026: <https://nextjs.org/learn/dashboard-app/navigating-between-pages#pattern-showing-active-links>
 - 23-09-2026: <https://nextjs.org/learn/dashboard-app/fetching-data#fetching-data-for-latestinvoices>
 - 24-09-2026: <https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#best-practice-debouncing>
+- 25-09-2026: <https://nextjs.org/learn/dashboard-app/adding-authentication#what-is-authentication>
 
 ## Topics
 
@@ -60,4 +61,12 @@ pnpm i
 ```bash
 pnpm approve-builds
 pnpm add -D eslint eslint-config-next
+```
+
+## Install NextAuth.js
+
+```bash
+pnpm i next-auth@beta
+pnpm add -D eslint eslint-config-next
+# generate a secret key for your application https://generate-secret.vercel.app/32
 ```
