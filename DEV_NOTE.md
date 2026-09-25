@@ -27,7 +27,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
 )}
 ```
 
-- vercel db error. gonna be use local postgres db. steps are here for latter use.  
+- vercel db error. gonna be use local postgres db. steps are here for latter use.
   1. Instructions link : <https://chatgpt.com/share/6ab3725e-7a8c-83e8-af88-02b4cb2e4ced>
   2. Install postgres: <https://www.enterprisedb.com/downloads/postgres-postgresql-downloads>
   3. skip stack builder during installation
@@ -38,7 +38,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
 - Route groups allow you to organize files into logical groups without affecting the URL path structure. When you create a new folder using parentheses (), the name won't be included in the URL path. So /dashboard/(overview)/page.tsx becomes /dashboard.
 - Suspense allows you to defer rendering parts of your application until some condition is met (e.g. data is loaded). You can wrap your dynamic components in Suspense. Then, pass it a fallback component to show while the dynamic component loads.
 - In general, it's good practice to move your data fetches down to the components that need it, and then wrap those components in Suspense.
-- need to learn more about revalidatePath  
+- need to learn more about revalidatePath
 -
 
 ## Commands
@@ -49,8 +49,15 @@ export default function InvoiceStatus({ status }: { status: string }) {
 pnpm dev
 ```
 
-## install  command
+## install command
 
 ```bash
 pnpm i
+```
+
+## ES lint for NextJS
+
+```bash
+pnpm approve-builds
+pnpm add -D eslint eslint-config-next
 ```
