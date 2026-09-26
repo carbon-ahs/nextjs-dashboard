@@ -6,7 +6,13 @@ import { lusitana } from "@/app/ui/fonts";
 import { InvoicesTableSkeleton } from "@/app/ui/skeletons";
 import { Suspense } from "react";
 import { fetchInvoicesPages } from "@/app/lib/data";
+import { Metadata } from "next";
 // Your search functionality will span the client and the server. When a user searches for an invoice on the client, the URL params will be updated, data will be fetched on the server, and the table will re-render on the server with the new data.
+
+export const metadata: Metadata = {
+  title: "Invoices",
+};
+
 export default async function Page(props: {
   searchParams?: Promise<{
     query?: string;
